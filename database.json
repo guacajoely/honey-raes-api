@@ -41,6 +41,18 @@
       "fullName": "Jeremy Bakker",
       "isStaff": true,
       "id": 7
+    },
+    {
+      "id": 8,
+      "fullName": "Jimbo Jenkins",
+      "email": "employee@1.com",
+      "isStaff": true
+    },
+    {
+      "id": 9,
+      "fullName": "Joel Dick",
+      "email": "user@1.com",
+      "isStaff": false
     }
   ],
   "customers": [
@@ -86,14 +98,14 @@
   "serviceTickets": [
     {
       "id": 1,
-      "userId": 3,
+      "userId": 9,
       "description": "Saepe ex sapiente deserunt et voluptas fugiat vero quasi. Ipsam est non ipsa. Occaecati rerum ipsa consequuntur. Ratione commodi unde sint non rerum. Sit quia et aut sunt.",
       "emergency": false,
       "dateCompleted": "Fri Apr 29 2022 14:02:20 GMT-0500 (Central Daylight Time)"
     },
     {
       "id": 2,
-      "userId": 3,
+      "userId": 9,
       "description": "Vero est adipisci sed natus quasi consectetur occaecati. Modi maxime sunt officia cumque. Vel at culpa. Sint accusamus deserunt dolorem qui.",
       "emergency": true,
       "dateCompleted": ""
@@ -114,27 +126,34 @@
     },
     {
       "id": 5,
-      "userId": 1,
+      "userId": 3,
       "description": "Pariatur nihil animi eos doloremque laborum fugiat consequuntur iusto. Et tempore a enim.",
       "emergency": true,
       "dateCompleted": "Fri Apr 29 2022 21:24:29 GMT-0500 (Central Daylight Time)"
+    },
+    {
+      "userId": 9,
+      "description": "My computer won't boot",
+      "emergency": true,
+      "dateCompleted": "",
+      "id": 6
     }
   ],
   "employeeTickets": [
     {
       "id": 1,
-      "employeeId": 3,
+      "employeeId": 8,
       "serviceTicketId": 1
     },
     {
       "id": 2,
-      "employeeId": 2,
-      "serviceTicketId": 5
+      "employeeId": 8,
+      "serviceTicketId": 2
     },
     {
       "id": 3,
-      "employeeId": 1,
-      "serviceTicketId": 4
+      "employeeId": 8,
+      "serviceTicketId": 3
     }
   ]
 }
