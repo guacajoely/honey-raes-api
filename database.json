@@ -93,6 +93,18 @@
       "specialty": "Printer Repair",
       "rate": 29.45,
       "userId": 6
+    },
+    {
+      "id": 4,
+      "specialty": "Basically Everything",
+      "rate": 30,
+      "userId": 7
+    },
+    {
+      "id": 5,
+      "specialty": "Just A Cool Dude",
+      "rate": 20,
+      "userId": 8
     }
   ],
   "serviceTickets": [
@@ -142,17 +154,17 @@
   "employeeTickets": [
     {
       "id": 1,
-      "employeeId": 8,
+      "employeeId": 1,
       "serviceTicketId": 1
     },
     {
       "id": 2,
-      "employeeId": 8,
+      "employeeId": 2,
       "serviceTicketId": 2
     },
     {
       "id": 3,
-      "employeeId": 8,
+      "employeeId": 3,
       "serviceTicketId": 3
     }
   ]
