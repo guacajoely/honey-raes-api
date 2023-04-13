@@ -73,6 +73,12 @@
       "address": "7346 Ritchie Road",
       "phoneNumber": "(507) 720-1157",
       "userId": 3
+    },
+    {
+      "id": 4,
+      "address": "123 Main Street",
+      "phoneNumber": "(555) 555-5555",
+      "userId": 9
     }
   ],
   "employees": [
@@ -90,20 +96,20 @@
     },
     {
       "id": 3,
-      "specialty": "Printer Repair",
-      "rate": 29.45,
+      "specialty": "Literally Everything",
+      "rate": 50.5,
       "userId": 6
     },
     {
       "id": 4,
-      "specialty": "Basically Everything",
-      "rate": 30,
+      "specialty": "Just a really cool dude",
+      "rate": 15.75,
       "userId": 7
     },
     {
       "id": 5,
-      "specialty": "PC AND MAC REPAIR",
-      "rate": 40.22,
+      "specialty": "Nobody really knows",
+      "rate": 10.25,
       "userId": 8
     }
   ],
